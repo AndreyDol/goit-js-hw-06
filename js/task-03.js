@@ -27,7 +27,7 @@ gallery.style.justifyContent = "center";
 gallery.style.alignItems = "center";
 //gallery.style.width = window.innerWidth + "px";
 gallery.style.listStyle = "None";
-const markUp = images
+const markup = images
   .map(
     (image) =>
       `<li class="list-item"><img width = "${
@@ -37,4 +37,4 @@ const markUp = images
 
 // + до DOM 
 
-gallery.insertAdjacentHTML("afterbegin", markUp);
+gallery.insertAdjacentHTML("afterbegin", markup);
